@@ -153,6 +153,9 @@ if (-not $args) {
 # https://github.com/farag2/Sophia-Script-for-Windows
 iwr script.sophia.team -useb | iex
 
+# https://github.com/ChrisTitusTech/winutil
+irm "https://christitus.com/win" | iex
+
 # Programs
 
 # https://github.com/valinet/ExplorerPatcher
