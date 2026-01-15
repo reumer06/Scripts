@@ -148,7 +148,7 @@ if (-not $args) {
 # Windows Debloat 
 
 # https://github.com/Raphire/Win11Debloat
-irm https://debloat.raphi.re | iex
+& ([scriptblock]::Create((irm "https://debloat.raphi.re/")))
 
 # https://github.com/farag2/Sophia-Script-for-Windows
 iwr script.sophia.team -useb | iex
