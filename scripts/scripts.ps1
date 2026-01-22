@@ -36,6 +36,7 @@ winget install ShareX.ShareX --accept-source-agreements
 # https://github.com/bleachbit/bleachbit
 winget install BleachBit.BleachBit --accept-source-agreements
 
+
 # Tools
 
 # https://github.com/PowerShell/PowerShell
@@ -48,7 +49,12 @@ winget install MSYS2.MSYS2 --accept-source-agreements
 # https://github.com/microsoft/vcpkg
 git clone https://github.com/microsoft/vcpkg.git 
 
-## this is already there is winutil under performance tab 
+#emscripten
+# https://github.com/emscripten-core/emscripten
+git clone https://github.com/emscripten-core/emscripten
+
+## its already there in winutil under performance tab 
 # https://learn.microsoft.com/en-us/answers/questions/3808904/ultra-performance-mode  
 powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
+
 powercfg /setactive e9a42b02-d5df-448d-aa00-03f14749eb61
