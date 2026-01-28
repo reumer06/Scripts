@@ -8,6 +8,7 @@ iwr script.sophia.team -useb | iex
 irm "https://christitus.com/win" | iex
 
 # Programs
+# Note- prefer to install directly from source repository
 
 # https://github.com/valinet/ExplorerPatcher
 winget install valinet.ExplorerPatcher --accept-source-agreements
@@ -43,11 +44,23 @@ winget install BleachBit.BleachBit --accept-source-agreements
 winget install Microsoft.PowerShell --accept-source-agreements
 
 # https://github.com/msys2/msys2-installer
-winget install MSYS2.MSYS2 --accept-source-agreements
+https://github.com/msys2/msys2-installer/releases
 
 # vcpkg 
 # https://github.com/microsoft/vcpkg
 git clone https://github.com/microsoft/vcpkg.git 
+
+#clang-tidy
+# https://github.com/llvm/llvm-project/tree/main 
+pacman -S mingw-w64-x86_64-clang-tools-extra   # clang-format , clang-tidy
+
+#doxygen
+# https://github.com/doxygen/doxygen
+https://www.doxygen.nl/download.html
+
+# valgrid
+# https://sourceware.org/git/valgrind.git
+pacman -S valgrind
 
 #emscripten
 # https://github.com/emscripten-core/emscripten
@@ -58,3 +71,4 @@ git clone https://github.com/emscripten-core/emscripten
 powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 
 powercfg /setactive e9a42b02-d5df-448d-aa00-03f14749eb61
+
