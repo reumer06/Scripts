@@ -57,8 +57,12 @@ scoop install main/doxygen
 # emscripten
 # https://github.com/emscripten-core/emscripten
 scoop install main/emscripten
+# https://github.com/seerge/g-helper
+scoop install g-helper
 
 ## its already there in winutil under performance tab 
 # https://learn.microsoft.com/en-us/answers/questions/3808904/ultra-performance-mode  
 powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 powercfg /setactive e9a42b02-d5df-448d-aa00-03f14749eb61
+# https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns
+
