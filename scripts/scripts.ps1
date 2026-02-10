@@ -22,8 +22,6 @@ powershell -c "irm bun.sh/install.ps1 | iex"
 scoop install extras/explorerpatcher
 # https://github.com/henrypp/memreduct
 scoop install extras/memreduct
-# https://github.com/microsoft/PowerToys
-scoop install extras/powertoys
 # https://www.voidtools.com (Search tool)
 scoop install extras/everything
 # https://github.com/fxsound2/fxsound-app
@@ -59,10 +57,12 @@ scoop install main/doxygen
 scoop install main/emscripten
 # https://github.com/seerge/g-helper
 scoop install g-helper
-
+# https://github.com/rizinorg/cutter
+scoop install cutter
 ## its already there in winutil under performance tab 
 # https://learn.microsoft.com/en-us/answers/questions/3808904/ultra-performance-mode  
 powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 powercfg /setactive e9a42b02-d5df-448d-aa00-03f14749eb61
 # https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns
+
 
