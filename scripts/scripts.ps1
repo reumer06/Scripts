@@ -24,8 +24,8 @@ scoop install extras/explorerpatcher
 scoop install extras/memreduct
 # https://www.voidtools.com (Search tool)
 scoop install extras/everything
-# https://github.com/fxsound2/fxsound-app
-scoop install extras/fxsound
+# https://sourceforge.net/projects/peace-equalizer-apo-extension/
+coop install nonportable/peace-np
 # https://www.alcpu.com/CoreTemp (Hardware monitor)
 scoop install extras/coretemp
 # https://github.com/M2Team/NanaZip
@@ -64,5 +64,6 @@ scoop install cutter
 powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 powercfg /setactive e9a42b02-d5df-448d-aa00-03f14749eb61
 # https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns
+
 
 
