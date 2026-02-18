@@ -57,6 +57,8 @@ scoop install main/doxygen
 scoop install main/emscripten
 # https://github.com/seerge/g-helper
 scoop install g-helper
+# https://github.com/lfreist/hwinfo
+https://www.hwinfo.com/download/
 # https://github.com/rizinorg/cutter
 scoop install cutter
 ## its already there in winutil under performance tab 
@@ -64,6 +66,7 @@ scoop install cutter
 powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 powercfg /setactive e9a42b02-d5df-448d-aa00-03f14749eb61
 # https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns
+
 
 
 
