@@ -70,8 +70,3 @@ scoop install main/zoxide main/eza main/bat main/ripgrep main/fd main
 powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 powercfg /setactive e9a42b02-d5df-448d-aa00-03f14749eb61
 # https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns
-
-
-
-
-
