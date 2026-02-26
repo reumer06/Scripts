@@ -61,11 +61,16 @@ scoop install g-helper
 https://www.hwinfo.com/download/
 # https://github.com/rizinorg/cutter
 scoop install cutter
+# https://github.com/alacritty/alacritty
+scoop install extras/alacritty main/bottom main/starship
+# Zoxide;Cd , Eza;ls, Bat;Better Cat, Ripgrep; Search, fd; Find, FZF Search UI)
+scoop install main/zoxide main/eza main/bat main/ripgrep main/fd main
 ## its already there in winutil under performance tab 
 # https://learn.microsoft.com/en-us/answers/questions/3808904/ultra-performance-mode  
 powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 powercfg /setactive e9a42b02-d5df-448d-aa00-03f14749eb61
 # https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns
+
 
 
 
