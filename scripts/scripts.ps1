@@ -63,8 +63,8 @@ https://www.hwinfo.com/download/
 scoop install cutter
 # https://github.com/alacritty/alacritty
 scoop install extras/alacritty main/bottom main/starship
-# Zoxide;Cd , Eza;ls, Bat;Better Cat, Ripgrep; Search, fd; Find, FZF Search UI)
-scoop install main/zoxide main/eza main/bat main/ripgrep main/fd main
+# Zoxide;Cd , Eza;ls, Bat;Better Cat, Ripgrep; Search, fd; Find, FZF Search UI, yazi Terminal File manager)
+scoop install main/zoxide main/eza main/bat main/ripgrep main/fd main/yazi
 # https://github.com/wezterm/wezterm
 scoop install wezterm
 ## its already there in winutil under performance tab 
@@ -72,4 +72,5 @@ scoop install wezterm
 powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 powercfg /setactive e9a42b02-d5df-448d-aa00-03f14749eb61
 # https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns
+
 
